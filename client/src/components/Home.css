@@ -1,0 +1,43 @@
+.home-list h2 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    gap: 2rem;
+    grid-auto-rows: 20rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    place-items: center;
+}
+
+.grid-item {
+    cursor: pointer;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: rgb(233, 233, 233);
+    border-radius: 4px;
+    box-shadow: 0 4px 2px -2px rgb(202, 202, 202);
+}
+
+.grid-item img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.grid-item h3 {
+    padding: 0px 10px 0px 10px;
+}
+
+.pagination {
+    display: inline-flex;
+    gap: 20px;
+    float: right;
+    margin-top: 10px;
+}
+
+.pagination .pagination-button {
+    cursor: pointer;
+    font-size: 25px;
+}

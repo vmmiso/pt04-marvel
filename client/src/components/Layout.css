@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    align-items: center; 
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    padding: 10px 5% 10px 5%;
+    margin-bottom: 50px;
+}
+
+.header img {
+    height: 80px;
+    cursor: pointer;
+}
+
+.header h1 {
+    display: flex;
+    align-items: center;
+}
+
+.header .user {
+    display: flex;
+    gap: 10px;
+    align-items: center; 
+    justify-content: center;
+}
+
+.header .user .signout-button {
+    color: rgb(193, 26, 26);
+    cursor: pointer;
+    font-size: 22px;
+}
+
+main {
+    padding: 0% 5% 5% 5%;
+}
